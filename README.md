@@ -27,3 +27,14 @@ def take_break(duration=300, interval=1500):
 
 # Usage: Call this after 25 mins of work  
 take_break()  
+
+```python
+🤔 Why This Works
+
+Science: Your prefrontal cortex needs rest to debug well.
+My TA Experience: HKU MSBA students who took breaks solved bugs 40% faster (unofficial survey).
+🌱 Homework for Your Heart
+
+Today, thank yourself for one bug you fixed with patience.
+
+✨ Contributions welcome! Add your wellness hacks via PR.
