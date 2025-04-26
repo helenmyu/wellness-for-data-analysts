@@ -1,21 +1,29 @@
-# 🧠✨ Wellness for Data Analysts: How to Stay Sane in a SQL Jungle  
+# 🧠💻 Debugging Your Brain: A Wellness Hack for Data Nerds  
 
-> *"You can’t `GROUP BY` happiness, but you can optimize for it."*  
+> *"Your IDE won’t optimize your mental health—but this guide will."*  
 
-## 🔥 **Top 5 Burnout Triggers in Data Roles**  
-1. **Endless loops** (AKA "Why is my query still running?")  
-   - Fix: Use the **Pomodoro technique** + [TimerTab](https://timer-tab.com/).  
-2. **"Just one more dashboard" syndrome**  
-   - Fix: Set **hard stops** (e.g., "No screens after 8 PM").  
+## 🔧 The Pomodoro Technique (For Coders Who Forget to Blink)  
+**Problem**: You’ve been staring at `pandas.DataFrame` for 3 hours straight.  
+**Solution**:  
+1. Code for **25 mins** (set a timer).  
+2. **Break for 5 mins**—and *do not touch a screen*.  
+   - Stare at a tree (higher resolution than your monitor).  
+   - Stretch like your `import numpy` depends on it.  
 
-## 📊 **Data-Backed Wellness Tips**  
-- **Sleep > Sigma**: [Oura Ring data](https://ouraring.com/) shows analysts with 7+ hrs sleep commit 20% fewer errors.  
-- **The 20-20-20 Rule**: For every 20 mins of screen time, look at something 20 ft away for 20 secs.  
+*(Pro tip: Trees don’t throw `IndentationError`.)*  
 
-![Wellness Dashboard](images/wellness-dashboard.png) *← Mockup you can make in Canva*  
+## ⏰ Automated Break Timer (`break_timer.py`)  
+Run this Python script to enforce breaks (no willpower required):  
 
-## 🤖 **Optional: Stress-Level Analyzer**  
 ```python
-import pandas as pd  
-# Pseudo-code: Analyze survey data about stress triggers  
-print("Your biggest stressor is: Meetings 🫠")  
+import time  
+from winsound import Beep  
+
+def take_break(duration=300, interval=1500):  
+    print("🛑 Step away from the keyboard!")  
+    Beep(interval, 1000)  # Annoying beep to force compliance  
+    time.sleep(duration)  
+    print("💡 Break’s over. You’ve been missed.")  
+
+# Usage: Call this after 25 mins of work  
+take_break()  
