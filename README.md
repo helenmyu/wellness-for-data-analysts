@@ -28,7 +28,7 @@ def take_break(duration=300, interval=1500):
 # Usage: Call this after 25 mins of work  
 take_break()  
 
-```python
+
 🤔 Why This Works
 
 Science: Your prefrontal cortex needs rest to debug well.
